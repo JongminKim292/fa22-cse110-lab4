@@ -123,3 +123,31 @@ It suggested that values that is in the container cannot be changed(re-assgined)
 <hr>
 
 ### Question 12
+- A: student.name 
+- B: student['Grad Year']
+- C: student.greeting()
+- D: student['Favorite Teacher']['name']
+- E: student.courseLoad[0]
+<hr>
+
+### Question 13
+- A: **32** with `string` type. `+` operator here is working as string concatenation operator. Thus, Since operation works from left to right, string **'3'** + string conversion of **2**. So this expression shows **32** as `string` with string conversion
+- B: **1** with `number` type. `-` operator here is working as `math operator` So `string` **3** converted to `number`. So this expression shows **1** as `number` type with numeric conversion
+- C: **3** with `number` type. **null** is converted to 0 by the Numeric conversion rules. 3 + 0 = **3** as `number` type with numeric conversion
+- D: **3null** with `string` type. Similar with **A**, **3** with `string` type and string concatenation operator `+`. So **null** converted to `stirng`. So this expression shows **3null** as `string` type with string conversion
+- E: **4** with `number` type. Even though `Bool` type is left, binary operator `+` only works as string concatenation operator or math operator. So, here  **true** will be converted 1 based on Numeric conversion rules
+- F: **0** with `number` type. binary `+` operator will works only two purposes. In this case, there is no `String` type, so it will works as math operator Similar with **E**, **false** here will be convered 0 based on Numeric conversion rules, and **null* will be converted to 0 as well
+- G: **3undefined** with `string` type. Similar with **A** and **D**, **3** is `string` type. `+` works as string concatenation operator. Thus this expression shows **3undefined** as `string` type with string conversion
+- H: **NaN** with conversion failed (technically `number` type). binary `-` operater only works with math operator. **undefined** becomes **NaN** based on Numeric conversion rules 
+
+### Question 14
+- A:
+- B:
+- C:
+- D:
+- E:
+- F:
+
+### Question 15
+
+`===` operator is called **strict equality operator**. it checks the euality without type conversions.
