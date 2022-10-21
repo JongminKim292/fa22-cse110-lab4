@@ -185,7 +185,7 @@ for (prop in statistics) {
 
 
 ### Question 18
-> > this code block is also saved at expose/javascript/part2-question18.js 
+> this code block is also saved at expose/javascript/part2-question18.js 
 
 > [Jump to directory](https://github.com/JongminKim292/fa22-cse110-lab4/blob/main/expose/javascript/part2-question18.js)
 
