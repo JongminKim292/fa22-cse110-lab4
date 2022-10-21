@@ -153,7 +153,7 @@ It suggested that values that is in the container cannot be changed(re-assgined)
 `===` operator is called **strict equality operator**. it checks the equality without type conversions.
 
 ### Question 16
-> this code block is also saved at expose/javascript/part2-question16.js [Go to directory]("part2-question16.js")
+> this code block is also saved at expose/javascript/part2-question16.js [Jump to directory]("https://github.com/JongminKim292/fa22-cse110-lab4/blob/main/expose/javascript/part2-question16.js")
 ```
 let statistics = {
     redCars: 21,
