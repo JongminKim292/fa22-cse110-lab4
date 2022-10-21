@@ -151,3 +151,25 @@ It suggested that values that is in the container cannot be changed(re-assgined)
 ### Question 15
 
 `===` operator is called **strict equality operator**. it checks the equality without type conversions.
+
+### Question 16
+> this code block is also saved at <a href="expose/javascript/part2-question16.js">
+```
+let statistics = {
+    redCars: 21,
+    blueCars: 45,
+    greenCars: 12,
+    raceCars: 5,
+    blackCars: 40,
+    rareCars: 2
+}
+
+for (prop in statistics) {
+    if (prop[0] == 'r' || statistics[prop]%2 == 1){
+        console.log(prop + ", value : " + statistics[prop])
+    }
+}
+```
+
+### Question 17
+
