@@ -200,3 +200,5 @@ setInterval(time, 1000)
 
 ### Question 19
 **1 - 4 - 3 -2**
+<br>
+`setTimeout()` function sets a timer which executes a function or specified piece of code once the timer expires. In this case, `line 1` and `line 5` executed directly (in order). `line 4` executed with slight delay and `line 3` executed after time set
