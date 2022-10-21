@@ -197,3 +197,6 @@ function time() {
 
 setInterval(time, 1000)
 ```
+
+### Question 19
+**1 - 4 - 3 -2**
