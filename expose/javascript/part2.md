@@ -141,13 +141,13 @@ It suggested that values that is in the container cannot be changed(re-assgined)
 - H: **NaN** with conversion failed (technically `number` type). binary `-` operater only works with math operator. **undefined** becomes **NaN** based on Numeric conversion rules 
 
 ### Question 14
-- A:
-- B:
-- C:
-- D:
-- E:
-- F:
+- A: **true**, when comparing values of different types, JS converts the values to numbers. 
+- B: **false**, `string` comparison uses lexicographical order. So **12** is faster order than **2**
+- C: **true**, Similar with **A** `stirng` **2** is converted to number
+- D: **false**, `===` is **strict equality operator**. it checks the equality without type conversions, different type causes **false**
+- E: **false**, For boolean values, **true** becomes 1 and **false** becomes 0. 
+- F: **true**, by boolean conversion rules, only numeric value that will become **false** is `0`. Thus, `Boolean(2)` will convert to **true**
 
 ### Question 15
 
-`===` operator is called **strict equality operator**. it checks the euality without type conversions.
+`===` operator is called **strict equality operator**. it checks the equality without type conversions.
