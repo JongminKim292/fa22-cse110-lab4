@@ -175,4 +175,25 @@ for (prop in statistics) {
 ```
 
 ### Question 17
+*it will return `[2, 4, 6]`*
+1. `line 13` called function modifyArray with paramater `[1,2,3]` and call back function `dosomething`
+2. return variable **newArr** is declared at `line 2` with `const`
+3. **newArr** push item that callback function `dosomething()` with callback parameter `array[i]` 
+4. callback function `dosomething(array[i])` returns each item `array[i]*2`
+5. `newArr ` = [ 1 * 2 = 2, 2 * 2 = 4, 3 * 2 = 6]
+6. return `[2,4,6]`
 
+
+### Question 18
+> > this code block is also saved at expose/javascript/part2-question18.js 
+
+> [Jump to directory](https://github.com/JongminKim292/fa22-cse110-lab4/blob/main/expose/javascript/part2-question18.js)
+
+```
+function time() {
+    let d = new Date();
+    console.log(`${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`)
+}
+
+setInterval(time, 1000)
+```
